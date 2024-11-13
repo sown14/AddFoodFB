@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "992613168043",
+    "project_id": "appfooddong",
+    "storage_bucket": "appfooddong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992613168043:android:420859f55c3ad37aa398ee",
+        "android_client_info": {
+          "package_name": "com.example.appfood_"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL8smWSAkCuifcQL98GuDK7cBpt0SsyLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

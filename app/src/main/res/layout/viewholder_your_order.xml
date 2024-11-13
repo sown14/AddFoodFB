@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    app:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/lndat"
+            >
+            <TextView
+                android:id="@+id/tv_hitory_product_text_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Đã Đặt Hàng "
+                android:textColor="@color/blue_grey"
+                android:layout_gravity="center"
+                android:textSize="10sp">
+            </TextView>
+            <TextView
+                android:id="@+id/tv_hitory_product_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/divider"
+                android:text="Đang Chuyển Bị-Sẽ Sớm Được Giao Tới Bạn"
+                android:textSize="10sp"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/blue_grey"
+                android:gravity="right">
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/lndat"
+            android:background="#D6D1D1">
+        </View>
+
+
+        <TextView
+            android:id="@+id/tv_hitory_product_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:text="Item Name"
+            android:textSize="15sp"
+            android:textColor="@color/blue_grey">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_hitory_product_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_hitory_product_text_num"
+            android:text="$0"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/red">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_hitory_product_text_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_hitory_product_name"
+            android:text="Quantity:"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/blue_grey">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_hitory_product_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/tv_hitory_product_text_num"
+            android:layout_below="@+id/tv_hitory_product_name"
+            android:text="1"
+            android:textSize="15sp"
+            android:textColor="@color/blue_grey">
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/tv_hitory_product_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_hitory_product_price"
+            android:text="Time: "
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            android:textColor="@color/blue_grey">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_hitory_product_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/tv_hitory_product_text"
+            android:layout_below="@+id/tv_hitory_product_price"
+            android:text="null"
+            android:textSize="15sp"
+            android:textColor="@color/blue_grey">
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

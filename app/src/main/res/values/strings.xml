@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FoodEtc</string>
+    <string name="titledautien">Explore the exciting world of cuisine with our culinary app where you can explore diverse recipes</string>
+    <string name="welcome">Welcome To The Food ETC</string>
+    <string name="categorychoose">Choose Category</string>
+    <string name="user">Hi Hiệp</string>
+    <string name="pr">"Chất lượng thực phẩm là ưu tiên hàng đầu tại nhà hàng chúng tôi. Chúng tôi cam kết tuân thủ các tiêu chuẩn cao nhất về an toàn thực phẩm để đảm bảo mọi món ăn đều tươi ngon và an toàn cho sức khỏe của khách hàng."\n
+"Chúng tôi không chỉ cung cấp món ăn ngon mà còn đảm bảo an toàn thực phẩm. Đội ngũ nhân viên của chúng tôi được đào tạo kỹ lưỡng về các quy trình vệ sinh và an toàn thực phẩm để đảm bảo mọi bữa ăn đều đạt chuẩn cao nhất."\n
+"Sức khỏe của khách hàng là trách nhiệm hàng đầu của chúng tôi. Chúng tôi không chỉ kiểm soát chất lượng thực phẩm mà còn thường xuyên kiểm tra và cập nhật các quy trình vệ sinh và an toàn thực phẩm để đảm bảo mọi món ăn đều an toàn và tươi ngon."\n
+"Tại nhà hàng của chúng tôi, an toàn thực phẩm là không đ negociable. Chúng tôi thực hiện kiểm tra nghiêm ngặt từ việc lựa chọn nguyên liệu cho đến quá trình chế biến và phục vụ, để đảm bảo mọi món ăn đều đáp ứng các tiêu chuẩn an toàn và chất lượng cao nhất."</string>
+</resources>
